@@ -23,4 +23,14 @@ public class CitasController {
     public List<Citas> getAllCitas(){
         return citasService.findAll();
     }
+
+    @GetMapping("/client")
+    public List<Citas> getCitasByEmail(String correo){
+        return citasService.findCitasByEmail(correo);
+    }
+
+    @DeleteMapping("/delete")
+    public void deleteCita(Citas citas){
+        citasService.deleteCita(citas);
+    }
 }

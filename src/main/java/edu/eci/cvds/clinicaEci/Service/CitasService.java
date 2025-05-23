@@ -21,4 +21,14 @@ public class CitasService {
     public List<Citas> findAll() {
         return citasMongo.findAll();
     }
+
+    public List<Citas> findCitasByEmail(String correo) {
+        return citasMongo.findByEmail(correo);
+    }
+
+    public void deleteCita(Citas citas) {
+        Citas citas1 = citasMongo.findByCita(citas.getCorreo(), citas.getFecha());
+        citas1.changeConfirmation();
+        citasMongo.save(citas1);
+    }
 }

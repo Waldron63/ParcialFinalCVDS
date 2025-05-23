@@ -22,4 +22,15 @@ public class Citas {
     private LocalDate fecha;
     private boolean confirmacion;
 
+    public void changeConfirmation(){
+        confirmacion = false;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public LocalDate getFecha() {
+        return fecha;
+    }
 }
