@@ -200,14 +200,10 @@
 						<configuration>
 							<excludes>
 								<exclude>/configurators/</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/service/**</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/controller/**</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/dto/**</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/repository/**</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/EciBienestarMod3.*</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/security/**</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/config/**</exclude>
-								<exclude>edu/eci/cvds/EciBienestarMod3/notifications/**</exclude>
+								<exclude>edu/eci/cvds/clinicaEci/service/**</exclude>
+								<exclude>edu/eci/cvds/clinicaEci/controller/**</exclude>
+								<exclude>edu/eci/cvds/clinicaEci/repository/**</exclude>
+								<exclude>edu/eci/cvds/clinicaEci/ClinicaEciApplication</exclude>
 							</excludes>
 						</configuration>
 					</execution>
